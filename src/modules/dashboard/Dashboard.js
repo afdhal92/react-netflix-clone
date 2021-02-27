@@ -6,7 +6,7 @@ import requests from '../../requests';
 
 function Dashboard() {
     return (
-        <div>
+        <div className="dashboard">
             <Navbar />
             <Banner />
             <Row
