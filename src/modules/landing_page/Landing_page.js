@@ -4,7 +4,7 @@ function Landing_page() {
     return (
         <div className="landing">
             <div className="landing-main">
-
+                <h1>first container</h1>
             </div>
             <div className="landing-trailer">
                 {/* bede */}
