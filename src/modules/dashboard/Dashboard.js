@@ -2,7 +2,7 @@ import React from 'react';
 import Row from './components/row/Row';
 import Banner from './components/banner/Banner';
 import Navbar from './components/navbar/Navbar';
-import requests from '../../requests';
+import requests from "_requests";
 
 function Dashboard() {
     return (

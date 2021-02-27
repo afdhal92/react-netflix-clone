@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import axios from '../../../../axios';
-import requests from '../../../../requests';
+import _axios from '_axios';
+import _requests from '_requests';
 import './Banner.css';
 
 function Banner() {
@@ -8,7 +8,7 @@ function Banner() {
 
     useEffect(() => {
         async function fetchData() {
-            const request = await axios.get(requests.fetchNetflixOriginals)
+            const request = await _axios.get(_requests.fetchNetflixOriginals)
             setMovie(
                 request.data.results[
                     Math.floor(Math.random() * request.data.results.length)
